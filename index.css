@@ -1,0 +1,103 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
+
+}
+body{
+    background-image: url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/main/Assignment_03(HTML%2BCSS)/assets/bg.png");
+}
+header{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.797);
+    align-items: center;
+    
+}
+header .logo{
+    width: 15%;
+    padding: 0px 10px;
+    border-right: 1px solid white;
+}
+
+header .nav{
+    padding: 20px 20px;
+    margin-left: 5%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header .nav ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+header .nav ul li{
+    font-weight: 500;
+    padding: 10px 10px;
+    border-radius:30px;
+    transition: font-weight ease-in 0.1s;
+
+      /* border: 3px solid white; */
+}
+
+header .nav ul li a{
+    color: rgba(255, 255, 255, 0.854);
+}
+
+header .nav ul li:hover{
+    font-weight: bolder;
+    border-top: 3px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+.home{
+    font-weight: bolder;
+    border-top: 3px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+.nav_btn{
+    padding: 13px 30px;
+    font-weight: 600;
+    border: 1px solid #d92be2;
+    border-radius: 6px;
+    background-color:#d92be2;
+    transition: all ease .5s;
+}
+.nav_btn:hover{
+    background-color: white;
+    color: #d92be2;
+}
+main{
+    margin-top: 100px;
+    width: 100%;
+    min-height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.mainsection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.mainsection h1{
+    font-weight: bolder;
+    color: white;
+    font-size: 80px;
+    font-family: sans-serif;
+}
+.mainsection p{
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+.mainsection_btn{
+    font-size: 22px;
+    box-shadow: 0px 0px 5px #d92be2;
+}
